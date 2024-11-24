@@ -1,0 +1,29 @@
+2024-11-329 21:50:30 [main] INFO com.ui.listeners.TestListener Test suite started 
+2024-11-329 21:50:30 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginTest Launching Home page now 
+2024-11-329 21:50:38 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
+2024-11-329 21:50:38 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener verify if a valid user is able to login to the application 
+2024-11-329 21:50:38 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2024-11-329 21:50:38 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Performing click action to go to Login Page 
+2024-11-329 21:50:39 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Entering user credentials to sign in to user Myaccount Page 
+2024-11-329 21:50:39 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.MyAccountPage Checking user profile name 
+2024-11-329 21:50:39 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener loginTest FAILED 
+2024-11-329 21:50:39 [TestNG-test=UI Automation Test-1] ERROR com.ui.listeners.TestListener no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title = "View my customer account"]/span"}
+  (Session info: chrome-headless-shell=131.0.6778.86)
+For documentation on this error, please visit: https://www.selenium.dev/documentation/webdriver/troubleshooting/errors#no-such-element-exception
+Build info: version: '4.25.0', revision: '8a8aea2337'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [c0d301dd0617e081da85e1bdbdc397e0, findElement {using=xpath, value=//a[@title = "View my customer account"]/span}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\pavan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:54141}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:54141/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: c0d301dd0617e081da85e1bdbdc397e0 
+2024-11-329 21:50:39 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener Capturing screenshot for the failed tests 
+2024-11-329 21:50:39 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener Attaching screenshot to the HTML file 
+2024-11-329 21:50:40 [TestNG-test=UI Automation Test-1] INFO com.ui.tests.LoginTest Launching Home page now 
+2024-11-329 21:50:44 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest 
+2024-11-329 21:50:44 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener verify if a valid user is able to login to the application 
+2024-11-329 21:50:44 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener [e2e, sanity] 
+2024-11-329 21:50:44 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.HomePage Performing click action to go to Login Page 
+2024-11-329 21:50:45 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.LoginPage Entering user credentials to sign in to user Myaccount Page 
+2024-11-329 21:50:45 [TestNG-test=UI Automation Test-1] INFO com.ui.pages.MyAccountPage Checking user profile name 
+2024-11-329 21:50:45 [TestNG-test=UI Automation Test-1] INFO com.ui.listeners.TestListener loginTest PASSED 
+2024-11-329 21:50:46 [main] INFO com.ui.listeners.TestListener Test suite completed 
