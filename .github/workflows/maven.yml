@@ -1,16 +1,17 @@
 name: Test Automation Workflow
 
 on:
-Schedule:
-  -cron: 00 18 * * *
+  schedule:
+    - cron: '0 18 * * *' 
   push:
-    branches: [ "master" ]
+    branches: 
+      - "master"
   pull_request:
-    branches: [ "master" ]
+    branches:
+      - "master"
 
 jobs:
   build:
-
     runs-on: ubuntu-latest
 
     steps:
@@ -40,4 +41,5 @@ jobs:
 
     - name: Test Execution Status
       run: echo "Test Execution Completed"
+
     
