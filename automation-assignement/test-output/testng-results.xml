@@ -2,18 +2,18 @@
 <testng-results ignored="0" total="2" passed="1" failed="1" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2024-11-24T21:31:58 GMT" name="Default suite" finished-at="2024-11-24T21:32:15 GMT" duration-ms="16760">
+  <suite started-at="2024-11-27T14:03:41 GMT" name="Default suite" finished-at="2024-11-27T14:03:57 GMT" duration-ms="16119">
     <groups>
       <group name="sanity">
-        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@70ab2d48]" name="loginTest" class="com.ui.tests.LoginTest"/>
+        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@260e86a1]" name="loginTest" class="com.ui.tests.LoginTest"/>
       </group> <!-- sanity -->
       <group name="e2e">
-        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@70ab2d48]" name="loginTest" class="com.ui.tests.LoginTest"/>
+        <method signature="LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@260e86a1]" name="loginTest" class="com.ui.tests.LoginTest"/>
       </group> <!-- e2e -->
     </groups>
-    <test started-at="2024-11-24T21:31:58 GMT" name="Default test" finished-at="2024-11-24T21:32:15 GMT" duration-ms="16760">
+    <test started-at="2024-11-27T14:03:41 GMT" name="Default test" finished-at="2024-11-27T14:03:57 GMT" duration-ms="16119">
       <class name="com.ui.tests.LoginTest">
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.Boolean, java.lang.Boolean, org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@70ab2d48]" started-at="2024-11-24T21:31:58 GMT" name="setUp" description="Launch the home page" finished-at="2024-11-24T21:32:07 GMT" duration-ms="8933" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.Boolean, java.lang.Boolean, org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@260e86a1]" started-at="2024-11-27T14:03:41 GMT" name="setUp" description="Launch the home page" finished-at="2024-11-27T14:03:50 GMT" duration-ms="8803" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -32,14 +32,14 @@
             </param>
             <param index="3">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@70ab2d48] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@260e86a1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@70ab2d48]" started-at="2024-11-24T21:32:07 GMT" name="loginTest" description="verify if a valid user is able to login to the application" data-provider="Login test data provider" finished-at="2024-11-24T21:32:08 GMT" duration-ms="1292" status="FAIL">
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@260e86a1]" started-at="2024-11-27T14:03:50 GMT" name="loginTest" description="verify if a valid user is able to login to the application" data-provider="Login test data provider" finished-at="2024-11-27T14:03:51 GMT" duration-ms="1041" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -55,9 +55,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ce51500a98eaf65a0b08fe7e99b92259, findElement {using=xpath, value=//a[@title = "View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\pavan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53474/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce51500a98eaf65a0b08fe7e99b92259]]>
+Command: [623da21b7387286d2e63b4c2b42ba300, findElement {value=//a[@title = "View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\pavan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52030}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52030/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 623da21b7387286d2e63b4c2b42ba300]]>
             </message>
             <full-stacktrace>
               <![CDATA[org.openqa.selenium.NoSuchElementException: no such element: Unable to locate element: {"method":"xpath","selector":"//a[@title = "View my customer account"]/span"}
@@ -66,9 +66,9 @@ For documentation on this error, please visit: https://www.selenium.dev/document
 Build info: version: '4.25.0', revision: '8a8aea2337'
 System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '11.0.1'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [ce51500a98eaf65a0b08fe7e99b92259, findElement {using=xpath, value=//a[@title = "View my customer account"]/span}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\pavan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:53474}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53474/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
-Session ID: ce51500a98eaf65a0b08fe7e99b92259
+Command: [623da21b7387286d2e63b4c2b42ba300, findElement {value=//a[@title = "View my customer account"]/span, using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome-headless-shell, browserVersion: 131.0.6778.86, chrome: {chromedriverVersion: 131.0.6778.85 (3d81e41b6f3a..., userDataDir: C:\Users\pavan\AppData\Loca...}, fedcm:accounts: true, goog:chromeOptions: {debuggerAddress: localhost:52030}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:52030/devtoo..., se:cdpVersion: 131.0.6778.86, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 623da21b7387286d2e63b4c2b42ba300
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
 at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:62)
 at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
@@ -121,11 +121,11 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@70ab2d48]" started-at="2024-11-24T21:32:09 GMT" name="tearDown" description="Tear down the browser" finished-at="2024-11-24T21:32:09 GMT" duration-ms="649" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@260e86a1]" started-at="2024-11-27T14:03:51 GMT" name="tearDown" description="Tear down the browser" finished-at="2024-11-27T14:03:52 GMT" duration-ms="641" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.Boolean, java.lang.Boolean, org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@70ab2d48]" started-at="2024-11-24T21:32:09 GMT" name="setUp" description="Launch the home page" finished-at="2024-11-24T21:32:13 GMT" duration-ms="3404" status="PASS">
+        <test-method is-config="true" signature="setUp(java.lang.String, java.lang.Boolean, java.lang.Boolean, org.testng.ITestResult)[pri:0, instance:com.ui.tests.LoginTest@260e86a1]" started-at="2024-11-27T14:03:52 GMT" name="setUp" description="Launch the home page" finished-at="2024-11-27T14:03:55 GMT" duration-ms="3382" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -144,14 +144,14 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
             </param>
             <param index="3">
               <value>
-                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@70ab2d48] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=LoginTest.loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@260e86a1] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@70ab2d48]" started-at="2024-11-24T21:32:13 GMT" name="loginTest" description="verify if a valid user is able to login to the application" data-provider="Login test data provider" finished-at="2024-11-24T21:32:14 GMT" duration-ms="1352" status="PASS">
+        <test-method signature="loginTest(com.ui.pojo.User)[pri:0, instance:com.ui.tests.LoginTest@260e86a1]" started-at="2024-11-27T14:03:55 GMT" name="loginTest" description="verify if a valid user is able to login to the application" data-provider="Login test data provider" finished-at="2024-11-27T14:03:56 GMT" duration-ms="1046" status="PASS">
           <params>
             <param index="0">
               <value>
@@ -162,7 +162,7 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:91)
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginTest -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@70ab2d48]" started-at="2024-11-24T21:32:14 GMT" name="tearDown" description="Tear down the browser" finished-at="2024-11-24T21:32:15 GMT" duration-ms="608" status="PASS">
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.ui.tests.LoginTest@260e86a1]" started-at="2024-11-27T14:03:56 GMT" name="tearDown" description="Tear down the browser" finished-at="2024-11-27T14:03:57 GMT" duration-ms="649" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
